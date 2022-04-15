@@ -1,0 +1,30 @@
+nav {
+    position: fixed;
+    top: 0;
+    height: 50px;
+    width: 100%;
+    background: $bg-color-g;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 1;
+    
+    
+
+    button {
+      background: $bg-br-color-bl;
+      ;
+      color: $bg-color-wht;
+      border-radius: 4px;
+      border: none;
+      padding: 10px;
+
+      &:hover {
+        cursor: pointer;
+        background: $bg-color-wht;
+        color:  $bg-br-color-bl;
+        border: 1px solid  $bg-br-color-bl;
+      }
+    }
+  
+}

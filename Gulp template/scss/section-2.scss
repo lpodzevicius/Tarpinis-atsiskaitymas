@@ -1,0 +1,64 @@
+section {
+    background: $bg-color-g;
+    height: 70vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+  
+    h2 {
+      position: absolute;
+      margin-bottom: 400px;
+    }
+  
+    .margaret,
+    .fred,
+    .sarah {
+      width: 200px;
+      padding: 10px 30px;
+      text-align: center;
+      line-height: 1.3em;
+      
+      &:hover {
+        cursor: pointer;
+        transform: scale(1.1);
+      }
+      
+    }
+  
+    .first {
+      background: url(../images/testimonials-1.jpg);
+      background-size: cover;
+      background-position: 40% 60%;
+      border-radius: 100% 100%;
+      box-shadow: 0 7px $shadow-color;
+      height: 180px;
+      margin-bottom: 20px;
+    }
+    
+    h4 {
+      margin-bottom: 10px;
+  
+    }
+  
+    .second {
+      background: url(../images/testimonials-2.jpg);
+      background-size: cover;
+      background-position: 40% 60%;
+      border-radius: 100% 100%;
+      box-shadow: 0 7px $shadow-color;
+      height: 180px;
+      margin-bottom: 20px;
+    }
+  
+    .third {
+      background: url(../images/testimonials-3.jpg);
+      background-size: cover;
+      background-position: 40% 60%;
+      border-radius: 100% 100%;
+      box-shadow: 0 7px $shadow-color;
+      height: 180px;
+      margin-bottom: 20px;
+    }
+  }
+  

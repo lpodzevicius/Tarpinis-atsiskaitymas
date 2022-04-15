@@ -1,0 +1,112 @@
+main {
+    background: $bg-color-wht;
+  
+    .first {
+     
+      display: flex;
+      
+      .text {
+        
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        min-height: 500px;
+        width: 50%;
+        position: relative;
+        
+  
+        h4 {
+          margin-left: 50px;
+          margin-right: 50px;
+        }
+  
+        p {
+          position: absolute;
+          margin-top: 130px;
+          margin-left: 50px;
+          margin-right: 50px;
+        }
+      }
+  
+      .photo {
+        height: 500px;
+        width: 50%;
+        background: url(../images/bg-showcase-1.jpg);
+        background-size: cover;
+      }
+  
+    }
+  
+    .second {
+      display: flex;
+  
+  
+      .photo {
+        height: 500px;
+        width: 50%;
+        background: url(../images/bg-showcase-2.jpg);
+        background-size: cover;
+        object-fit: fill;
+      }
+  
+      .text {
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        min-height: 500px;
+        width: 50%;
+        position: relative;
+        
+  
+        h4 {
+          margin-left: 50px;
+          margin-right: 50px;
+        }
+  
+        p {
+          position: absolute;
+          margin-top: 130px;
+          margin-left: 50px;
+          margin-right: 50px;
+        }
+      }
+  
+    }
+  
+    .three {
+      display: flex;
+  
+      .text {
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        min-height: 500px;
+        width: 50%;
+        position: relative;
+        
+  
+        h4 {
+          margin-left: 50px;
+          margin-right: 50px;
+        }
+  
+        p {
+          position: absolute;
+          margin-top: 150px;
+          margin-left: 50px;
+          margin-right: 50px;
+          
+        }
+      }
+  
+      .photo {
+        height: 500px;
+        width: 50%;
+        background: url(../images/bg-showcase-3.jpg);
+        background-size: cover;
+      }
+  
+    }
+  
+  
+  }

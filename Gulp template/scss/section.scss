@@ -1,0 +1,35 @@
+section {
+    background: $bg-color-g;
+    height: 60vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  
+    .monitor,
+    .bootstrap,
+    .correct {
+      width: 200px;
+      padding: 10px 30px;
+      text-align: center;
+      line-height: 1.3em
+      
+      
+    }
+  
+    svg {
+      height: 80px;
+      margin-bottom: 20px;
+  
+        &:hover {
+        cursor: pointer;
+        transform: scale(1.1); }
+    }
+    
+    h4 {
+      margin-bottom: 10px;
+  
+      
+      
+      
+    }
+  }

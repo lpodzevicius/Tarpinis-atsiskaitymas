@@ -1,0 +1,194 @@
+@media (max-width:700px) {
+    header {
+      height: 80vh;
+      
+  
+      .email {
+        margin-top: 430px;
+        display: block;
+        padding: 20px 160px;
+        
+  
+  
+  
+  
+        input {
+          padding-right: 160px;
+          margin-bottom: 10px;
+          
+        }
+  
+        button {
+          padding: 10px 140px;
+        }
+      }
+  
+  
+      
+    }
+  
+  
+    section {
+      flex-direction: column;
+      height: 120vh;
+    }
+  
+    main {
+     
+       background: $bg-color-wht;
+  
+        .first {
+          display: block;
+          
+  
+          .photo {
+            height: 200px;
+            width: 100%;
+            
+          }
+  
+  
+          .text {
+            display: flex;
+            align-items: center;
+            justify-content: first baseline;
+            
+            width: 100%;
+            min-height: 150px;
+            margin-bottom: 50px;
+  
+  
+            p {
+              margin-top: 100px;
+            }
+          }
+        }
+  
+        .second {
+          display: block;
+          
+  
+          .photo {
+            height: 200px;
+            width: 100%;
+            
+          }
+  
+  
+          .text {
+            display: flex;
+            align-items: center;
+            justify-content: first baseline;
+            
+            width: 100%;
+            min-height: 150px;
+            margin-bottom: 50px;
+  
+  
+            p {
+              margin-top: 100px;
+            }
+          }
+        }
+    
+        .three {
+          display: block;
+          
+  
+          .photo {
+            height: 200px;
+            width: 100%;
+            
+          }
+  
+  
+          .text {
+            display: flex;
+            align-items: center;
+            justify-content: first baseline;
+            
+            width: 100%;
+            min-height: 150px;
+            margin-bottom: 50px;
+  
+  
+            p {
+              margin-top: 100px;
+            }
+          }
+        }
+  
+       
+       
+      }
+      section:nth-of-type(2) {
+        height: 220vh;
+  
+  
+        h2 {
+          margin-bottom: 1500px;
+        }
+  
+        .margaret,
+        .fred,
+        .sarah {
+            width: 200px;
+            padding: 10px 30px;
+            text-align: center;
+            line-height: 1.3em; 
+            
+        }
+  
+        .first,
+        .second, 
+        .third {
+               
+               margin-bottom: 70px;
+        }
+      }
+  
+      .two {
+        height: 60vh;
+        
+    
+        .email {
+          margin-top: 220px;
+          display: block;
+          padding: 20px 160px;
+          
+    
+    
+    
+    
+          input {
+            padding-right: 160px;
+            margin-bottom: 10px;
+            
+          }
+    
+          button {
+            padding: 10px 140px;
+          }
+        }
+    
+    
+        
+      }
+  
+      footer {
+        flex-direction: column;
+        align-items: center;
+  
+        a {
+          padding: 5px 20px;
+          
+        }
+  
+        p {
+          
+          padding-left: 100px;
+        }
+      }
+    
+  }
+  

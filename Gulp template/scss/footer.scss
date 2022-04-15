@@ -1,0 +1,37 @@
+footer {
+    background: $bg-color-g;
+    height: 30vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  
+    
+  
+    a {
+      padding: 5px 20px;
+      text-decoration: none;
+      color:$bg-br-color-bl ;
+      font-weight: bold;
+  
+  
+      &:hover {
+        cursor: grab;
+       color: darkblue;
+      }
+    }
+  
+    p {
+      padding-left: 20px;
+      color: rgb(136, 133, 133);
+      
+    }
+  
+  
+    svg {
+      margin: 0 20px;
+      height: 30px;
+  
+      
+    }
+  
+  }
